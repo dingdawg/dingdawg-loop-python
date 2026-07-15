@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dingdawg-loop"
+version = "1.0.0"
+description = "DingDawg Loop Protocol — governed scheduled agents for Python. CrewAI, LangGraph, and custom agents in 2 lines. Fail-closed, MCP-native, audit receipts on every execution."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [
+    { name = "ISG / DingDawg", email = "dev@dingdawg.com" }
+]
+keywords = ["ai", "agents", "governance", "scheduling", "crewai", "langgraph", "mcp"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://dingdawg.com"
+Repository = "https://github.com/isg-ai/dingdawg-loop-python"
+Documentation = "https://dingdawg.com/docs/loop"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dingdawg_loop*"]
