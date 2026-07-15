@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
   "name": "io.github.dingdawg/dingdawg-loop-python",
   "description": "DingDawg Loop Protocol \u2014 governed scheduled agents for Python. CrewAI, LangGraph, and custom agents in 2 lines.",
   "repository": {
