@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dingdawg/dingdawg-loop-python",
+  "description": "DingDawg Loop Protocol \u2014 governed scheduled agents for Python. CrewAI, LangGraph, and custom agents in 2 lines.",
+  "repository": {
+    "url": "https://github.com/dingdawg/dingdawg-loop-python",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "dingdawg-loop",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "maintainers": [
+    "jr33377"
+  ]
+}
